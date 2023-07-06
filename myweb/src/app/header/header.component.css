@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(222, 245, 237);
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.imagen1{
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #375e56;  /* fallback for old browsers */
+background: linear-gradient(to right, rgb(140, 211, 211), hsla(216, 21%, 65%, 0.518)),url(../../assets/img/programmer-scanning-screen-on-his-smartwatch-with-smartphone-camera.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0 ;
+}
+nav > a{
+    color:white ;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px; 
+}
+nav > a:hover{ 
+    text-decoration: underline;
+    
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: white;
+}
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Perfil */
+
+
+.perfil h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #642a73;
+    font-size: 40px;
+}
+.perfil h3{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+.perfil p{
+    font-size: 20px;
+    padding-bottom: 35px;
+    text-align: center;
+    margin-top: 18px;
+    
+}
+
+.imagen .centro{
+    display: block;
+   margin: auto;
+   width: 250px;
+   border: 2px solid cornflowerblue;
+
+}
+
+
+/* Univrsidad */
+.Universidad h2{
+    text-align: center;
+    color: #642a73 ;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.Univ-img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nombreU h3{
+    text-align: center;
+    color: #0e0e0e;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.nombreU p{
+    text-align: center;
+    color: #0e0e0e;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+/* Estudios y Cursos */
+
+.about-services{
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 30%;
+    text-align: center;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.servicio-ind img{
+    width: 90%;
+    
+}
+
+.servicio-ind h3{
+    margin: 15px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+.contenedor h1{
+    font-size: 40px;
+}
+
+/* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0 ;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom:50px ;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: white;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0 ;
+    color: #9e9797;
+}
+
+
+/* Formulario */
+
+
+ .contact_form{	
+  margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px;
+  background: url(../../assets/img/footer.jpg);
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 500px; 
+	height: 50px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px;
+}
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+.contact_form button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #ab4493; 
+	border-color: #ab4493; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+	color: #fff; 
+}
+
+
+span{
+	color: #ab4493; 
+}
+
+
+.aviso{
+	font-size: 13px;  
+	color: #0e0e0e;  
+}
+
+
+h1{
+	font-size: 40px;  
+	text-align: center; 
+	padding-bottom: 20px; 
+	color:  white;
+}
+
+
+.formulario h3{
+	font-size: 16px; 
+	padding-bottom: 30px;
+	color: white;   
+}
+
+
+.formulario p{
+	font-size: 16px; 
+	color: white; 
+    font-weight: bolder;
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+/* Curriculum */
+
+.curriculum h1{
+    color:  #642a73 ;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.boton{
+    text-align: center;
+}
+
+.descarga{
+    text-align: center;
+    
+}
+
+.hola{
+    text-align: center;
+    margin-bottom: 20px; 
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color:  #ab4493;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.centradoo{
+    text-align: center;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link  href=" https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      
+    </div>
+    <header>
+
+      <section class="textos-header">
+        <h1>Christian Paul Andrade Villa</h1>
+        <h2>Frontend Developer</h2>
+      </section>
+      <div class="wave" style="height: 150px; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M-3.15,85.64 C130.02,143.80 380.02,-29.30 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: rgb(255, 255, 255)"
+          ></path>
+        </svg>
+      </div>
+    </header>
+    <main>
+     <div class="perfil">
+        <h1>Bienvenido a mi sitio web web</h1>
+        <h3>Perfil</h3>
+     
+        <div class="imagen">
+          <img class="centro" src="../../assets/img/61678580_1982981295141911_955525095445495808_n.jpg" alt="">
+        </div>
+        <p>A developer with 1+ years of experience in the creation and development of responsive web pages, passionate about continuing to learn different types of frameworks and cutting-edge languages ​​such as React, Angular, Vue, JavaScript, Python.</p>
+      </div> 
+  
+     
+      <div class="Universidad">
+        <h2>Formacion Academica</h2>
+        <div class="Univ-img">
+          <img src="../../assets/img/Logo-de-la-Universidad-Iberoamericana-del-Ecuador-UNIBE-300x300.png" alt="">
+        </div>
+        <div class="nombreU">
+          <h3>Universidad Iberoaericana del Eacuador</h3>
+          <p>Ingenieria en Software</p>
+          <p>2018-2023 (En Curso)</p>
+        </div>
+      </div>
+
+
+     <section class="about-service">
+        <div class="contenedor">
+          <h1 class="titulo">Cursos Realizados</h1>
+          <div class="servicio-cont">
+            <div class="servicio-ind">
+              <img
+                src="../../assets/img/Udemy_logo.svg.png"
+                alt=""
+              />
+              <h3>Universidad de Lógica de Programación - Aprende 7 Lenguajes!</h3>
+              <p>
+                ID de la Credencial:UC-eba7c65e-b4c6-42c9-90fc-675cee05218f
+              </p>
+            </div>
+            <div class="servicio-ind">
+              <img
+                src="../../assets/img/Udemy_logo.svg.png"
+                alt=""
+              />
+              <h3>Master en Frameworks JavaScript: Aprende Angular, React, Vue</h3>
+              <p>
+                ID de la Credencial:UC-2b7e1761-a445-4042-9acc-2b96062540e7
+              </p>
+            </div>
+            <div class="servicio-ind">
+              <img
+                src="../../assets/img/Udemy_logo.svg.png"
+                alt=""
+              />
+              <h3>Master en programación fullstack JavaScript Angular Node</h3>
+              <p>
+                ID de la Credencial:UC-9ac1589f-b1c6-403a-b1dd-25ec1c137cf1
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </main>
+    <div class="contact_form">
+      <div class="formulario">			
+        <h1>Formulario de contacto</h1>
+          <h3>Escríbenos y en breve nos pondremos en contacto contigo</h3>
+            <form class="form1" action="submeter-formulario.php" method="post">				
+                  <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                  </p>
+                  <p>
+                    <label for="email" class="colocar_email">Email
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                  </p>
+                  <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                      <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                  </p>		
+                  <p>
+                    <label for="asunto" class="colocar_asunto">Asunto
+                      <span class="obligatorio">*</span>
+                    </label>
+                      <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                  </p>		
+                
+                  <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                      <span class="obligatorio">*</span>
+                    </label>                     
+                                       <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Escribir Mensaje...."></textarea> 
+                                   </p>	  								
+                
+                  <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+  
+                  <p class="aviso">
+                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                  </p>					
+              
+            </form>
+      </div>	
+    </div>
+    <div class="curriculum">
+      <h1>
+        Descargar Curriculum
+      </h1>
+      <div class="centradoo">
+        <button class="hola" mat-icon-button matTooltip="Accent" color="accent" aria-label="Example icon-button with a heart icon">
+          <mat-icon>archive <a download="curriculum" href="../../assets/Curriculum .pdf"></a></mat-icon>
+        </button>
+      </div>
+    </div> 
+   
+    
+    <footer>
+      <div class="contenedor-footer">
+        <div class="content-foo">
+          <h4>Celular</h4>
+          <p>0999270853</p>
+        </div>
+        <div class="content-foo">
+          <h4>Email</h4>
+          <p>crica10andravilla@hotmail.com</p>
+        </div>
+        <div class="content-foo">
+          <h4>Ubicación</h4>
+          <p>Quito-Ecuador</p>
+        </div>
+      </div>
+      <h2 class="titulo-final">&copy; C10Developer | Christian Andrade</h2>
+    </footer>
+  </body>
+</html>
